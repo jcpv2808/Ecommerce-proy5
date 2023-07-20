@@ -1,0 +1,85 @@
+nav {
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.flotante {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.not-transparent {
+    opacity: 1;
+    background-color: #fff;
+    transition: opacity 0.3s ease;
+}
+
+.transparent{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    /* Additional styles for a transparent navbar */
+}
+
+a.nav-link,a.navbar-brand{
+    color: black;
+    font-weight: 500;
+}
+
+.nav-item{
+    margin-left: 30px;
+}
+
+div.container>button>span{
+    background-color: #bbbbbb77;
+    border-radius: 20%;
+}
+
+.navbar{
+    padding: 30px;
+}
+.navbar-brand{
+    height: 100%;
+    margin: 0;
+}
+.logo-container{
+    height: 30px;
+    width: auto;
+}
+.logo-container .img-fluid{
+    height: 100%;
+}
+.carrito{
+    background-color: #2488FD;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+/*hovers*/
+.nav-link:focus, .nav-link:hover{
+    color: #2488FD;
+    transition: 0.3s ease;
+}
+
+a.navbar-brand:hover{
+    color: #2488FD;
+}
+
+a.navbar-brand:focus{
+    color: #000;
+}
+
+.carrito:hover{
+    background-color: rgb(67, 67, 255);
+}
+
+.carrito a:hover, .carrito a:focus{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background: #00000020;
+}
+

@@ -1,0 +1,29 @@
+#main-footer {
+    background-color: #141414;
+    color: #fff;
+    padding: 45px 0;
+}
+#logo-footer{
+    margin-bottom: 20px;
+}
+.redes{
+padding-top: 20px;
+}
+
+.red{
+    font-size: 1.25rem;
+    padding-right: 10px;
+    transition: 0.2s ease-out;
+}
+
+.red:hover{
+    color: #2488FD;
+}
+
+.redes a{
+    color: #aaa;
+}
+
+.content-wrapper{
+    text-align: center;
+}

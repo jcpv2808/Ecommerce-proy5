@@ -1,0 +1,11 @@
+.circulo{
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    border-radius: 50%;
+    border: solid 2.5px #2488FD;
+    z-index: 9999;
+    transition: 0.15s ease-out;
+    pointer-events: none;
+}

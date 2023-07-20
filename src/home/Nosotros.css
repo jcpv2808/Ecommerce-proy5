@@ -1,0 +1,74 @@
+.card-container {
+    margin-bottom: 50px;
+}
+
+.card-body {
+    padding: 50px;
+}
+
+.icon-circle {
+    background-color: #2488FD;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+    transition: 0.3s ease-out;
+}
+
+.icon-circle i {
+    font-size: 1.5rem;
+}
+
+.why {
+    background-color: #FAFAFA;
+}
+
+.card {
+    border: none;
+    transition: 0.3s ease-out;
+}
+
+.titulo{
+    text-align: center;
+    line-height: 1.75rem;
+}
+
+.card-title {
+    text-align: initial;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.card-text {
+    text-align: initial;
+    color: #999;
+    font-weight: 300;
+    line-height: 1.75rem;
+}
+
+.card:hover {
+    background-color: #2488FD;
+}
+
+.card:hover .card-body>.icon-circle {
+    background-color: #fff;
+}
+
+.card:hover .card-body>.icon-circle>i {
+    color: #2488FD;
+}
+
+.card:hover .card-title {
+    color: #fff;
+}
+
+.card:hover .card-text {
+    color: #fff;
+}
+
+.section-tittle{
+    margin-bottom: 35px;
+}

@@ -1,0 +1,19 @@
+#btnAñadir{
+    font-size: 1.25rem;
+}
+.card-body{
+    text-align: center;
+}
+.card-body p{
+    margin-bottom: 1rem;
+}
+#btnAñadir{
+    transition: 0.3s ease-out;
+}
+#btnAñadir:hover{
+    color: #fff;
+    font-size: 1.5rem;
+}
+#btnAñadir:active{
+    color: black;
+}
