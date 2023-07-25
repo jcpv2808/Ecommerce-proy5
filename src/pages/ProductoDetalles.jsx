@@ -19,7 +19,7 @@ function ProductoDetalles() {
         fetch(rutaServicio)
             .then(response => response.json())
             .then(data => {
-                //console.log(data);
+                console.log(data);
                 setItemProducto(data[0]);
             })
     }
